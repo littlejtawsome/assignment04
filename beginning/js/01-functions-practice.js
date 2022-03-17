@@ -6,7 +6,10 @@
 // var halfNumber = function halfNumber(a) {
 //    console.log( "Half of " +  a  + "  is" + (a / 2) );
 // };
-//    halfNumber(5);
+//    halfNumber(5); 
+//function expression
+
+
 
 // STEP 2 
 // 2.Write a function called squareNumber() that accepts one argument (a number), square that number, and return the result. It should also log a string like "The result of squaring the number 3 is 9."
@@ -38,36 +41,8 @@
     
 //STEP 5
 // 5.Create a JavaScript function that accepts a certain amount of numbers as parameters. Those numbers should be collected using a prompt and the numbers should be delimited by commas. Once the values are collected, find the sum of all of the numbers combined. You will need to use a function, loop, arguments object, and several type conversion global functions to accomplish this task. -->
-//신지영 첫번째 트라이.
-// var numbersSum;
-// function getSum(numArray) {
-//    var numArray = parseInt(prompt("pick  numbers"));
-//    alert("Your number is "+ numArray.split(',' + getSum());
-//  console.log("Sum of getSum is " )
-// }
-//    getSum();
 
-//신지영 두번째 트라이 .forEach(callback, thisArg)
-// const arr = [];
-// var element =parseInt( prompt("Enter your numbers"));
-
-// arr.forEach(function(element){
-//     console.log(element);
-// });
-// arr.forEach(element) => console.log(element));
-
-//신지영 3번째 트라이
-// <script>
-// const numbers1 = [45, 4, 9, 16, 25];
-// const numbers2 = numbers1.map(myFunction);
-
-// document.getElementById("demo").innerHTML = numbers2;
-
-// function myFunction() {
-//   return value * 2;
-// }
-
-////권태혁 코드
+///혁 코드
 //     var numbersSum;
 //     function getSum(numArray) {
 //     var sum = 0;
